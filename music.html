@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">    
+    <link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body onresize="checkViewWidth()">
+    <ul class="menu-font sidenav">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="news.html">News</a>
+        </li>
+        <li>
+            <a class="active" href="music.html">Music</a>
+        </li>
+    </ul>
+
+
+    <div class="content">
+        <h2>Here you can find the best music</h2>
+        <div class="row">
+            <div class="column column-6">
+
+                    <h3>Wu-Tang Clan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fuga in aliquam expedita, 
+                        cum numquam sapiente nam quam deserunt labore, minima iusto quo error harum quidem doloribus eligendi voluptatibus possimus!    </p>
+                    <button class="button" id="btn-1">See video</button>
+                    <div id="modal-1" class="modal">
+
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="close-1" class="close">&times;</span>
+                                <h4>Wu-Tang Clan - People say</h4>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="100%" height="576" src="https://www.youtube.com/embed/iBViC-fEdm0"></iframe>
+                            </div>
+                            <!-- <div class="modal-footer">
+                                <h3>Modal Footer</h3>
+                            </div> -->
+                        </div>
+            
+                    </div>
+            </div>
+
+                 <div class="column column-6">
+
+                    <h3>Delinquent Habits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fuga in aliquam expedita, 
+                        cum numquam sapiente nam quam deserunt labore, minima iusto quo error harum quidem doloribus eligendi voluptatibus possimus!    </p>
+                    <button class="button" id="btn-2">See video</button>
+
+                    <div id="modal-2" class="modal">
+            
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="close-2" class="close">&times;</span>
+                                <h4>Delinquent Habits - CALIFORNIA Feat. Sen Dog (Cypress Hill)</h4>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="100%" height="576" src="https://www.youtube.com/embed/PfQ7BPDDe6Y"></iframe>
+                            </div>
+                            <!-- <div class="modal-footer">
+                                <h3>Modal Footer</h3>
+                            </div> -->
+                        </div>
+            
+                    </div>
+            </div>
+
+        </div>
+
+       
+
+    </div>
+
+
+
+
+    <script src="modals.js"></script>
+
+</body>
+
+</html>
