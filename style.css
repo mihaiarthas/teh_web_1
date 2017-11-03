@@ -1,8 +1,10 @@
 body {
     margin: 0;
+    background-color: #efefef;
 }
 
 ul.sidenav {
+    border-right: 2px solid #FF3b3F;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -86,7 +88,7 @@ body {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 70px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
