@@ -54,12 +54,6 @@ ul.sidenav li a:hover:not(.active) {
     color:  white;
 }
 
-div.content {
-    margin-left: 23%;
-    margin-right: 3%;
-    padding: 1px 16px;
-    height: auto;
-}
 
 .header h1 {
     /* font-family: 'Gudea';font-size: 22px; */
@@ -71,7 +65,7 @@ div.content {
 .header {
     height: 60px;
     background-color: #FF3b3F;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -92,7 +86,6 @@ div.content {
         float: left;
         padding: 15px;
     }
-    div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
@@ -201,4 +194,23 @@ iframe * {
     width: 100%;
 }h2 {
     color: #FF3b3F;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 23%;
+    
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+    margin-left: 0%;
+    
+    }
 }
