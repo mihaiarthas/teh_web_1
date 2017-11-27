@@ -75,15 +75,6 @@ ul.sidenav li a:hover:not(.active) {
     left: 0;
 }
 
-header {
-    height: 60px;
-    background-color: #FF3b3F;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
 .main-body {
     margin-top: 60px;
 }
